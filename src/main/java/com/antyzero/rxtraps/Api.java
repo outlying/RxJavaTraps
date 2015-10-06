@@ -1,9 +1,8 @@
 package com.antyzero.rxtraps;
 
-/**
- * Created by iwopolanski on 06.10.2015.
- */
+import rx.Observable;
+
 public interface Api {
 
-
+    Observable<String> getData();
 }
